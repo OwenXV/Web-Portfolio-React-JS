@@ -1,0 +1,107 @@
+
+
+*{
+    box-sizing: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navibar{
+    height: 80px;
+    background-color:#5DB7DE;
+}
+.offCan{
+    background-color: #2f75a0;
+}
+
+.heroSection img{
+    height:300px;
+    width: 400px;
+    object-fit: cover;
+}
+.heroSection h3{
+    color:#71797E;
+}
+
+.heroName{
+    color:orange;
+    
+}
+.hero-btn{
+    cursor: pointer;
+    border: 0;
+    background-color: #5DB7DE;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 15px;
+    transition: .4s;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero-btn:hover{
+    background-color: black;
+    color: white; 
+}
+
+.aboutSection{
+    background-color: whitesmoke;
+}
+
+.aboutSection h1{
+    color: #2f739d;
+}
+
+
+.aboutImg img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 30% 0%;
+}
+
+
+.formSection{
+    background-color: #2f75a0;
+    color: white;
+}
+
+.formSection img{
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+}
+
+.contact-btn{
+    cursor: pointer;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 13px 23px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footerSection{
+    background-color: #494d5f;
+
+}
+
+.footerSection h3{
+  color: white;
+  height: 100px;
+}
+
+.footerSection .Nav-link{
+    cursor: pointer;
+}
+
+#socmed img{
+    height: 35px;
+}
